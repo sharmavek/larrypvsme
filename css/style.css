@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+/*Index*/
+html *{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+/*Header*/
+header {
+	color: white;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-image: url(../img/larryp1.jpg);
+    background-position: center;
+    overflow-x: hidden;
+}
+
+#main_title {
+    text-align: left;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 60px 10px 10px 10px;
+    background-color: #2980b9;
+    margin: 0px 0px 0px 5%;
+    font-size: 23px;
+}
+
+#head_wrap {
+    position: relative;
+    top: 40%;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    
+    -webkit-transition: all .75s ease-out;
+    -ms-transition: all .75s ease-out;
+    -o-transition: all .75s ease-out;
+    transition: all .75s ease-out;
+}
+
+#question, #instructions {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-family: 30px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    overflow: visible;
+    margin: 0px 0px 30px 0px;
+}
+
+#button_wrap {
+    text-align: center;
+    margin: 30px;
+}
+
+#begin {
+    background: transparent;
+	color: white;
+    letter-spacing: 1.5px;
+    border-width: 3px;
+    border-radius: 0;
+    border-color: white;
+}
+
+#begin:hover {
+    background: white;
+    color: black;
+}
+
+@-webkit-keyframes scroll-arrow {
+  0%   { opacity: 1;}
+  100% { opacity: 0;
+        -webkit-transform: translateY(30px);
+        -moz-transform: translateY(30px);
+        transform: translateY(30px);
+  }
+}
+
+.fa-angle-double-down {
+  -webkit-animation: scroll-arrow 2s infinite; /* Safari 4+ */
+  -moz-animation:    scroll-arrow 2s infinite; /* Fx 5+ */
+  animation:         scroll-arrow 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+/*Modal*/
+modal {
+    position: relative;
+}
+
+#results_wrap {
+    text-align: center;
+}
+
+#results_wrap h2 {
+    color: white;
+    height: 165px;
+    padding: 10px;
+}
+
+#hrs {
+    background: #f1c40f;
+}
+
+#min {
+    background: red;
+}
+
+#sec {
+    background: #3498db;
+}
+
+.attention {
+    font-size: 90px;
+}
+
+/*Section*/
+section {
+    padding: 50px;
+    background-color: #545454;    
+}
+
+.live_earnings {
+    text-align: center;
+    color: white;
+}
+
+.live_earnings h4 {
+    padding: 10px;
+}
+
+.live_earnings h1{
+    padding: 5px 0px 15px 0px;
+}
+
+/*Footer*/
+footer {
+    padding: 20px 0px;
+    background-color: #323232;    
+}
+
+#attribution {
+    text-align: center;
+}
+
+small {
+    color: white;
+}
+
+small a {
+    color: white;
+}
+
+small a:hover {
+    color: blue;
+}
